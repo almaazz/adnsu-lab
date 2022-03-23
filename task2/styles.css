@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* header */
+
+div.header-div {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+div.navbar {
+    width: 30%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.navbar > a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* main div */
+
+div.main-div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* project div sidebar */
+
+div.project-links {
+    border: 1px solid #000;
+    width: 20%;
+    text-align: center;
+}
+
+img.project-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+
+/* events div */
+
+div.events-div {
+    border: 1px solid #000;
+    width: 50%;
+    padding-left: 20px;
+}
+
+
+/* right sidebar */
+div.right-sidebar {
+    width: 20%;
+    border: 1px solid #000;
+    text-align: center;
+    
+}
+
+div.banner-div, div.highlights-div {
+    border: 1px solid #000;
+    width: 90%;
+    margin: 10px auto;
+    height: 200px;
+}
+
+/* main-content */
+
+
+div.main-content {
+    width: 70%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+
+/* Contact */
+
+form.form-class {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* about */
+
+div.about-me {
+    display: flex;
+    flex-direction: row;
+}
+
+div.about-me > div {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+
+
+img.pp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
